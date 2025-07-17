@@ -25,15 +25,25 @@ public class ExtentListenerClass implements ITestListener{
 	public void configureReport()
 	{
 	
-		String timestamp = new SimpleDateFormat("yyyy.mm.dd.hh.mm.ss").format(new Date());
-		String reportName = "PetStoreAutomationTestReport-" + timestamp + ".html";
-		new ExtentSparkReporter(System.getProperty("user.dir") + "/test-output/ExtentReport.html");
-
-		//htmlReporter = new ExtentSparkReporter(System.getProperty("user.dir") + "//Reports//" + reportName);
-		htmlReporter = new ExtentSparkReporter(System.getProperty("user.dir") + "/test-output/ExtentReport.html");
+//		String timestamp = new SimpleDateFormat("yyyy.mm.dd.hh.mm.ss").format(new Date());
+//		String reportName = "Rest_Assured" + timestamp + ".html";
+//		new ExtentSparkReporter(System.getProperty("user.dir") + "/test-output/ExtentReport.html");
+//		//new ExtentSparkReporter("test-output/ExtentReport_" + timestamp + ".html");
+//
+//		//htmlReporter = new ExtentSparkReporter(System.getProperty("user.dir") + "//Reports//" + reportName);
+//		htmlReporter = new ExtentSparkReporter(System.getProperty("user.dir") + "/test-output/ExtentReport.html");
+//
+//		reports = new ExtentReports();
+//		reports.attachReporter(htmlReporter);
+		String reportPath = System.getProperty("user.dir") + "/test-output/ExtentReport.html";
+		htmlReporter = new ExtentSparkReporter(reportPath);
+		htmlReporter.config().setTheme(Theme.DARK);
+		htmlReporter.config().setDocumentTitle("Automation Test Report");
+		htmlReporter.config().setReportName("API Automation Suite");
 
 		reports = new ExtentReports();
 		reports.attachReporter(htmlReporter);
+
 		
 		//add system information/environment info to reports
 		reports.setSystemInfo("Machine:", "testpc1");
