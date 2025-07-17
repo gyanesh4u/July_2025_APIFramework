@@ -1,9 +1,7 @@
 package com.test;
 
-import org.testng.annotations.Test;
-import org.testng.annotations.BeforeClass;
-import org.testng.AssertJUnit;
 import org.testng.Assert;
+import org.testng.AssertJUnit;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
@@ -12,12 +10,14 @@ import api.pojo.Workspace;
 import api.pojo.WorkspaceRoute;
 import io.restassured.response.Response;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 public class WorkspaceTest {
 
 	
 	Workspace workspace;
 	WorkspaceRoute wr;
-	
+	public static Logger logger;
 	@BeforeClass
 	public void generateTestData() {
 		
@@ -28,6 +28,7 @@ public class WorkspaceTest {
 		
 		wr=new WorkspaceRoute();
 		wr.setWorkspace(workspace);
+		logger = LogManager.getLogger("RestAssuredAutomationFramework_test");
 	}
 	@Test(priority = 1)
 	public void testCreateWorkSpace() {
@@ -39,26 +40,30 @@ public class WorkspaceTest {
 
 		
 		this.workspace.setId(id);
+		logger.info("Created new workspace");
 	}
 	
 	@Test(priority = 2)
 	public void testGetAllWorkspace() {
 		Response response = WorkspaceEndpoint.getAll_Workspace();
 		response.then().log().all();
-		AssertJUnit.assertEquals(response.getStatusCode(), 200);
+		Assert.assertEquals(response.getStatusCode(), 200);
+		logger.info("Fetched all workspace");
+		
 	}
 	
 	@Test(priority = 3)
 	public void testGetSingleWorkspace() {
 		Response response=WorkspaceEndpoint.getsingle_Workspace(this.workspace.getId());
 		response.then().log().all();
-		AssertJUnit.assertEquals(response.getStatusCode(), 200);
+		Assert.assertEquals(response.getStatusCode(), 200);
 	}
 	
 	@Test(priority = 4)
 	public void testDeleteWorkspace() {
 		Response response=WorkspaceEndpoint.deletesingle_Workspace(this.workspace.getId());
 		response.then().log().all();
-		AssertJUnit.assertEquals(response.getStatusCode(), 200);
+		Assert.assertEquals(response.getStatusCode(), 200);
+		logger.info("Deleted workspace");
 	}
 }
