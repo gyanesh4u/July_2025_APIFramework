@@ -35,14 +35,14 @@ public class ExtentListenerClass implements ITestListener{
 //
 //		reports = new ExtentReports();
 //		reports.attachReporter(htmlReporter);
-		String reportPath = System.getProperty("user.dir") + "/test-output/ExtentReport.html";
-		htmlReporter = new ExtentSparkReporter(reportPath);
-		htmlReporter.config().setTheme(Theme.DARK);
-		htmlReporter.config().setDocumentTitle("Automation Test Report");
-		htmlReporter.config().setReportName("API Automation Suite");
+		ExtentSparkReporter spark = new ExtentSparkReporter("test-output/ExtentReport.html");
+		spark.config().setTheme(Theme.DARK);
+		spark.config().setDocumentTitle("API Test Report");
+		spark.config().setReportName("Automation Results");
 
-		reports = new ExtentReports();
-		reports.attachReporter(htmlReporter);
+		ExtentReports extent = new ExtentReports();
+		extent.attachReporter(spark);
+
 
 		
 		//add system information/environment info to reports
