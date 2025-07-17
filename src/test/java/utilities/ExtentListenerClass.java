@@ -19,45 +19,24 @@ import com.aventstack.extentreports.reporter.configuration.Theme;
 public class ExtentListenerClass implements ITestListener{
 
 	ExtentSparkReporter  htmlReporter;//user interface/ look & feel of the report
-	ExtentReports reports;//common information
+	ExtentReports extent;//common information
 	ExtentTest test;//entries for test
 	
-	public void configureReport()
-	{
-	
-//		String timestamp = new SimpleDateFormat("yyyy.mm.dd.hh.mm.ss").format(new Date());
-//		String reportName = "Rest_Assured" + timestamp + ".html";
-//		new ExtentSparkReporter(System.getProperty("user.dir") + "/test-output/ExtentReport.html");
-//		//new ExtentSparkReporter("test-output/ExtentReport_" + timestamp + ".html");
-//
-//		//htmlReporter = new ExtentSparkReporter(System.getProperty("user.dir") + "//Reports//" + reportName);
-//		htmlReporter = new ExtentSparkReporter(System.getProperty("user.dir") + "/test-output/ExtentReport.html");
-//
-//		reports = new ExtentReports();
-//		reports.attachReporter(htmlReporter);
-		ExtentSparkReporter spark = new ExtentSparkReporter("test-output/ExtentReport.html");
-		spark.config().setTheme(Theme.DARK);
-		spark.config().setDocumentTitle("API Test Report");
-		spark.config().setReportName("Automation Results");
 
-		ExtentReports extent = new ExtentReports();
-		extent.attachReporter(spark);
-		extent.setSystemInfo("OS", "macOS");
-		extent.setSystemInfo("Tester", "Gyanesh");
+	public void configureReport() {
+	    String timestamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());
+	    ExtentSparkReporter spark = new ExtentSparkReporter(System.getProperty("user.dir") + "/test-output/ExtentReport_" + timestamp + ".html");
 
-		
-		//add system information/environment info to reports
-		reports.setSystemInfo("Machine:", "testpc1");
-		reports.setSystemInfo("OS", "windows 11");
-		reports.setSystemInfo("user name:", "Prachi");
-		
-		//configuration to change look and feel of report
-		htmlReporter.config().setDocumentTitle("Extent Listener Report Demo");
-		htmlReporter.config().setReportName("This is my First Report");
-		htmlReporter.config().setTheme(Theme.DARK);
-		
-		
+	    spark.config().setTheme(Theme.DARK);
+	    spark.config().setDocumentTitle("API Test Report");
+	    spark.config().setReportName("Automation Results");
+
+	    extent = new ExtentReports();
+	    extent.attachReporter(spark);
+	    extent.setSystemInfo("OS", "macOS");
+	    extent.setSystemInfo("Tester", "Gyanesh");
 	}
+
 
 	//OnStart method is called when any Test starts.
 	public void onStart(ITestContext Result)					
@@ -72,7 +51,7 @@ public class ExtentListenerClass implements ITestListener{
 		System.out.println("On Finished method invoked....");  	
 		System.out.println("Extent Report saved at: " + System.getProperty("user.dir") + "/test-output/ExtentReport.html");
 
-		reports.flush();//it is mandatory to call flush method to ensure information is written to the started reporter.
+		extent.flush();//it is mandatory to call flush method to ensure information is written to the started reporter.
 
 	}		
 
@@ -83,7 +62,7 @@ public class ExtentListenerClass implements ITestListener{
 	public void onTestFailure(ITestResult Result) 					
 	{		
 		System.out.println("Name of test method failed:" + Result.getName() );  		
-		test = reports.createTest(Result.getName());//create entry in html report
+		test = extent.createTest(Result.getName());//create entry in html report
 		test.log(Status.FAIL, MarkupHelper.createLabel("Name of the failed test case is: " + Result.getName() ,ExtentColor.RED));
 	
 	String screenShotPath = System.getProperty("user.dir") + "\\ScreenShots\\" + Result.getName() + ".png";
@@ -106,7 +85,7 @@ public class ExtentListenerClass implements ITestListener{
 	{		
 		System.out.println("Name of test method skipped:" + Result.getName() );  		
 
-		test = reports.createTest(Result.getName());
+		test = extent.createTest(Result.getName());
 		test.log(Status.SKIP, MarkupHelper.createLabel("Name of the skip test case is: " + Result.getName() ,ExtentColor.YELLOW));
 	}			
 
@@ -124,7 +103,7 @@ public class ExtentListenerClass implements ITestListener{
 	{		
 		System.out.println("Name of test method sucessfully executed:" + Result.getName() );  		
 
-		test = reports.createTest(Result.getName());
+		test = extent.createTest(Result.getName());
 		test.log(Status.PASS, MarkupHelper.createLabel("Name of the passed test case is: " + Result.getName() ,ExtentColor.GREEN));
 	}		
 
