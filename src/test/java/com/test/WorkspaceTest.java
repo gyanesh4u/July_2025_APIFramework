@@ -2,6 +2,7 @@ package com.test;
 
 import org.testng.Assert;
 import org.testng.AssertJUnit;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
@@ -66,4 +67,6 @@ public class WorkspaceTest {
 		Assert.assertEquals(response.getStatusCode(), 200);
 		logger.info("Deleted workspace");
 	}
+	
+
 }

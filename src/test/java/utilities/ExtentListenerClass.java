@@ -27,7 +27,11 @@ public class ExtentListenerClass implements ITestListener{
 	
 		String timestamp = new SimpleDateFormat("yyyy.mm.dd.hh.mm.ss").format(new Date());
 		String reportName = "PetStoreAutomationTestReport-" + timestamp + ".html";
-		htmlReporter = new ExtentSparkReporter(System.getProperty("user.dir") + "//Reports//" + reportName);
+		new ExtentSparkReporter(System.getProperty("user.dir") + "/test-output/ExtentReport.html");
+
+		//htmlReporter = new ExtentSparkReporter(System.getProperty("user.dir") + "//Reports//" + reportName);
+		htmlReporter = new ExtentSparkReporter(System.getProperty("user.dir") + "/test-output/ExtentReport.html");
+
 		reports = new ExtentReports();
 		reports.attachReporter(htmlReporter);
 		
@@ -55,6 +59,8 @@ public class ExtentListenerClass implements ITestListener{
 	public void onFinish(ITestContext Result) 					
 	{		
 		System.out.println("On Finished method invoked....");  	
+		System.out.println("Extent Report saved at: " + System.getProperty("user.dir") + "/test-output/ExtentReport.html");
+
 		reports.flush();//it is mandatory to call flush method to ensure information is written to the started reporter.
 
 	}		
