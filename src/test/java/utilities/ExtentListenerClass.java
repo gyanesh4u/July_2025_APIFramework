@@ -42,7 +42,8 @@ public class ExtentListenerClass implements ITestListener{
 
 		ExtentReports extent = new ExtentReports();
 		extent.attachReporter(spark);
-
+		extent.setSystemInfo("OS", "macOS");
+		extent.setSystemInfo("Tester", "Gyanesh");
 
 		
 		//add system information/environment info to reports
