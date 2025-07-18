@@ -2,32 +2,32 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-17T16:42:22 IST" name="Default suite" finished-at="2025-07-17T16:42:29 IST" duration-ms="6854">
+  <suite started-at="2025-07-18T13:09:36 IST" name="Suite" finished-at="2025-07-18T13:09:42 IST" duration-ms="5652">
     <groups>
     </groups>
-    <test started-at="2025-07-17T16:42:22 IST" name="Default test" finished-at="2025-07-17T16:42:29 IST" duration-ms="6854">
+    <test started-at="2025-07-18T13:09:36 IST" name="Test" finished-at="2025-07-18T13:09:42 IST" duration-ms="5652">
       <class name="com.test.WorkspaceTest">
-        <test-method is-config="true" signature="generateTestData()[pri:0, instance:com.test.WorkspaceTest@50b472aa]" started-at="2025-07-17T16:42:22 IST" name="generateTestData" finished-at="2025-07-17T16:42:22 IST" duration-ms="438" status="PASS">
+        <test-method is-config="true" signature="generateTestData()[pri:0, instance:com.test.WorkspaceTest@6f80fafe]" started-at="2025-07-18T13:09:36 IST" name="generateTestData" finished-at="2025-07-18T13:09:37 IST" duration-ms="226" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateTestData -->
-        <test-method signature="testCreateWorkSpace()[pri:1, instance:com.test.WorkspaceTest@50b472aa]" started-at="2025-07-17T16:42:22 IST" name="testCreateWorkSpace" finished-at="2025-07-17T16:42:26 IST" duration-ms="3580" status="PASS">
+        <test-method signature="testCreateWorkSpace()[pri:1, instance:com.test.WorkspaceTest@6f80fafe]" started-at="2025-07-18T13:09:37 IST" name="testCreateWorkSpace" finished-at="2025-07-18T13:09:40 IST" duration-ms="2884" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCreateWorkSpace -->
-        <test-method signature="testGetAllWorkspace()[pri:2, instance:com.test.WorkspaceTest@50b472aa]" started-at="2025-07-17T16:42:26 IST" name="testGetAllWorkspace" finished-at="2025-07-17T16:42:27 IST" duration-ms="711" status="PASS">
+        <test-method signature="testGetAllWorkspace()[pri:2, instance:com.test.WorkspaceTest@6f80fafe]" started-at="2025-07-18T13:09:40 IST" name="testGetAllWorkspace" finished-at="2025-07-18T13:09:40 IST" duration-ms="686" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetAllWorkspace -->
-        <test-method signature="testGetSingleWorkspace()[pri:3, instance:com.test.WorkspaceTest@50b472aa]" started-at="2025-07-17T16:42:27 IST" name="testGetSingleWorkspace" finished-at="2025-07-17T16:42:28 IST" duration-ms="1342" status="PASS">
+        <test-method signature="testGetSingleWorkspace()[pri:3, instance:com.test.WorkspaceTest@6f80fafe]" started-at="2025-07-18T13:09:40 IST" name="testGetSingleWorkspace" finished-at="2025-07-18T13:09:41 IST" duration-ms="1118" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetSingleWorkspace -->
-        <test-method signature="testDeleteWorkspace()[pri:4, instance:com.test.WorkspaceTest@50b472aa]" started-at="2025-07-17T16:42:28 IST" name="testDeleteWorkspace" finished-at="2025-07-17T16:42:29 IST" duration-ms="737" status="PASS">
+        <test-method signature="testDeleteWorkspace()[pri:4, instance:com.test.WorkspaceTest@6f80fafe]" started-at="2025-07-18T13:09:41 IST" name="testDeleteWorkspace" finished-at="2025-07-18T13:09:42 IST" duration-ms="712" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDeleteWorkspace -->
       </class> <!-- com.test.WorkspaceTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

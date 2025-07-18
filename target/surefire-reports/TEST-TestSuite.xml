@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="6.233" tests="4" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="7.527" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/Users/gyaneshkamal/eclipse-workspace/July_2025_API_Framework/target/test-classes:/Users/gyaneshkamal/eclipse-workspace/July_2025_API_Framework/target/classes:/Users/gyaneshkamal/.m2/repository/io/rest-assured/rest-assured/5.3.0/rest-assured-5.3.0.jar:/Users/gyaneshkamal/.m2/repository/org/apache/groovy/groovy/4.0.6/groovy-4.0.6.jar:/Users/gyaneshkamal/.m2/repository/org/apache/groovy/groovy-xml/4.0.6/groovy-xml-4.0.6.jar:/Users/gyaneshkamal/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/gyaneshkamal/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/gyaneshkamal/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/gyaneshkamal/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/gyaneshkamal/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/gyaneshkamal/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/gyaneshkamal/.m2/repository/io/rest-assured/json-path/5.3.0/json-path-5.3.0.jar:/Users/gyaneshkamal/.m2/repository/org/apache/groovy/groovy-json/4.0.6/groovy-json-4.0.6.jar:/Users/gyaneshkamal/.m2/repository/io/rest-assured/rest-assured-common/5.3.0/rest-assured-common-5.3.0.jar:/Users/gyaneshkamal/.m2/repository/io/rest-assured/xml-path/5.3.0/xml-path-5.3.0.jar:/Users/gyaneshkamal/.m2/repository/org/testng/testng/7.7.1/testng-7.7.1.jar:/Users/gyaneshkamal/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/gyaneshkamal/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/gyaneshkamal/.m2/repository/org/webjars/jquery/3.6.1/jquery-3.6.1.jar:/Users/gyaneshkamal/.m2/repository/com/github/scribejava/scribejava-apis/8.3.1/scribejava-apis-8.3.1.jar:/Users/gyaneshkamal/.m2/repository/com/github/scribejava/scribejava-core/8.3.1/scribejava-core-8.3.1.jar:/Users/gyaneshkamal/.m2/repository/com/github/scribejava/scribejava-java8/8.3.1/scribejava-java8-8.3.1.jar:/Users/gyaneshkamal/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.12.3/jackson-databind-2.12.3.jar:/Users/gyaneshkamal/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.12.3/jackson-annotations-2.12.3.jar:/Users/gyaneshkamal/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.12.3/jackson-core-2.12.3.jar:/Users/gyaneshkamal/.m2/repository/com/github/fge/json-schema-validator/2.2.6/json-schema-validator-2.2.6.jar:/Users/gyaneshkamal/.m2/repository/com/google/code/findbugs/jsr305/3.0.0/jsr305-3.0.0.jar:/Users/gyaneshkamal/.m2/repository/joda-time/joda-time/2.3/joda-time-2.3.jar:/Users/gyaneshkamal/.m2/repository/com/googlecode/libphonenumber/libphonenumber/6.2/libphonenumber-6.2.jar:/Users/gyaneshkamal/.m2/repository/com/github/fge/json-schema-core/1.2.5/json-schema-core-1.2.5.jar:/Users/gyaneshkamal/.m2/repository/com/github/fge/uri-template/0.9/uri-template-0.9.jar:/Users/gyaneshkamal/.m2/repository/com/github/fge/msg-simple/1.1/msg-simple-1.1.jar:/Users/gyaneshkamal/.m2/repository/com/github/fge/btf/1.2/btf-1.2.jar:/Users/gyaneshkamal/.m2/repository/com/google/guava/guava/16.0.1/guava-16.0.1.jar:/Users/gyaneshkamal/.m2/repository/com/github/fge/jackson-coreutils/1.8/jackson-coreutils-1.8.jar:/Users/gyaneshkamal/.m2/repository/org/mozilla/rhino/1.7R4/rhino-1.7R4.jar:/Users/gyaneshkamal/.m2/repository/javax/mail/mailapi/1.4.3/mailapi-1.4.3.jar:/Users/gyaneshkamal/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar:/Users/gyaneshkamal/.m2/repository/net/sf/jopt-simple/jopt-simple/4.6/jopt-simple-4.6.jar:/Users/gyaneshkamal/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar:/Users/gyaneshkamal/.m2/repository/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/Users/gyaneshkamal/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/gyaneshkamal/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/Users/gyaneshkamal/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/gyaneshkamal/.m2/repository/org/apache/poi/poi/5.2.3/poi-5.2.3.jar:/Users/gyaneshkamal/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/Users/gyaneshkamal/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/gyaneshkamal/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/gyaneshkamal/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/Users/gyaneshkamal/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/Users/gyaneshkamal/.m2/repository/org/apache/poi/poi-ooxml/5.2.3/poi-ooxml-5.2.3.jar:/Users/gyaneshkamal/.m2/repository/org/apache/poi/poi-ooxml-lite/5.2.3/poi-ooxml-lite-5.2.3.jar:/Users/gyaneshkamal/.m2/repository/org/apache/xmlbeans/xmlbeans/5.1.1/xmlbeans-5.1.1.jar:/Users/gyaneshkamal/.m2/repository/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/Users/gyaneshkamal/.m2/repository/com/github/virtuald/curvesapi/1.07/curvesapi-1.07.jar:/Users/gyaneshkamal/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/Users/gyaneshkamal/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar:/Users/gyaneshkamal/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/gyaneshkamal/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/gyaneshkamal/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:/Users/gyaneshkamal/.m2/repository/org/apache/logging/log4j/log4j-core/2.17.2/log4j-core-2.17.2.jar:/Users/gyaneshkamal/.m2/repository/org/apache/logging/log4j/log4j-api/2.17.2/log4j-api-2.17.2.jar:/Users/gyaneshkamal/.m2/repository/org/projectlombok/lombok/1.18.32/lombok-1.18.32.jar:"/>
+    <property name="java.class.path" value="/Users/gyaneshkamal/eclipse-workspace/July_2025_API_Framework/target/test-classes:/Users/gyaneshkamal/eclipse-workspace/July_2025_API_Framework/target/classes:/Users/gyaneshkamal/.m2/repository/io/rest-assured/rest-assured/5.3.0/rest-assured-5.3.0.jar:/Users/gyaneshkamal/.m2/repository/org/apache/groovy/groovy/4.0.6/groovy-4.0.6.jar:/Users/gyaneshkamal/.m2/repository/org/apache/groovy/groovy-xml/4.0.6/groovy-xml-4.0.6.jar:/Users/gyaneshkamal/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/gyaneshkamal/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/gyaneshkamal/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/gyaneshkamal/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/gyaneshkamal/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/gyaneshkamal/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/gyaneshkamal/.m2/repository/io/rest-assured/json-path/5.3.0/json-path-5.3.0.jar:/Users/gyaneshkamal/.m2/repository/org/apache/groovy/groovy-json/4.0.6/groovy-json-4.0.6.jar:/Users/gyaneshkamal/.m2/repository/io/rest-assured/rest-assured-common/5.3.0/rest-assured-common-5.3.0.jar:/Users/gyaneshkamal/.m2/repository/io/rest-assured/xml-path/5.3.0/xml-path-5.3.0.jar:/Users/gyaneshkamal/.m2/repository/org/testng/testng/7.7.1/testng-7.7.1.jar:/Users/gyaneshkamal/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/gyaneshkamal/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/gyaneshkamal/.m2/repository/org/webjars/jquery/3.6.1/jquery-3.6.1.jar:/Users/gyaneshkamal/.m2/repository/com/github/scribejava/scribejava-apis/8.3.1/scribejava-apis-8.3.1.jar:/Users/gyaneshkamal/.m2/repository/com/github/scribejava/scribejava-core/8.3.1/scribejava-core-8.3.1.jar:/Users/gyaneshkamal/.m2/repository/com/github/scribejava/scribejava-java8/8.3.1/scribejava-java8-8.3.1.jar:/Users/gyaneshkamal/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.12.3/jackson-databind-2.12.3.jar:/Users/gyaneshkamal/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.12.3/jackson-annotations-2.12.3.jar:/Users/gyaneshkamal/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.12.3/jackson-core-2.12.3.jar:/Users/gyaneshkamal/.m2/repository/com/github/fge/json-schema-validator/2.2.6/json-schema-validator-2.2.6.jar:/Users/gyaneshkamal/.m2/repository/com/google/code/findbugs/jsr305/3.0.0/jsr305-3.0.0.jar:/Users/gyaneshkamal/.m2/repository/joda-time/joda-time/2.3/joda-time-2.3.jar:/Users/gyaneshkamal/.m2/repository/com/googlecode/libphonenumber/libphonenumber/6.2/libphonenumber-6.2.jar:/Users/gyaneshkamal/.m2/repository/com/github/fge/json-schema-core/1.2.5/json-schema-core-1.2.5.jar:/Users/gyaneshkamal/.m2/repository/com/github/fge/uri-template/0.9/uri-template-0.9.jar:/Users/gyaneshkamal/.m2/repository/com/github/fge/msg-simple/1.1/msg-simple-1.1.jar:/Users/gyaneshkamal/.m2/repository/com/github/fge/btf/1.2/btf-1.2.jar:/Users/gyaneshkamal/.m2/repository/com/google/guava/guava/16.0.1/guava-16.0.1.jar:/Users/gyaneshkamal/.m2/repository/com/github/fge/jackson-coreutils/1.8/jackson-coreutils-1.8.jar:/Users/gyaneshkamal/.m2/repository/org/mozilla/rhino/1.7R4/rhino-1.7R4.jar:/Users/gyaneshkamal/.m2/repository/javax/mail/mailapi/1.4.3/mailapi-1.4.3.jar:/Users/gyaneshkamal/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar:/Users/gyaneshkamal/.m2/repository/net/sf/jopt-simple/jopt-simple/4.6/jopt-simple-4.6.jar:/Users/gyaneshkamal/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar:/Users/gyaneshkamal/.m2/repository/io/reactivex/rxjava3/rxjava/3.1.6/rxjava-3.1.6.jar:/Users/gyaneshkamal/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar:/Users/gyaneshkamal/.m2/repository/org/freemarker/freemarker/2.3.32/freemarker-2.3.32.jar:/Users/gyaneshkamal/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/gyaneshkamal/.m2/repository/org/apache/poi/poi/5.2.3/poi-5.2.3.jar:/Users/gyaneshkamal/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/Users/gyaneshkamal/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/gyaneshkamal/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/gyaneshkamal/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/Users/gyaneshkamal/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/Users/gyaneshkamal/.m2/repository/org/apache/poi/poi-ooxml/5.2.3/poi-ooxml-5.2.3.jar:/Users/gyaneshkamal/.m2/repository/org/apache/poi/poi-ooxml-lite/5.2.3/poi-ooxml-lite-5.2.3.jar:/Users/gyaneshkamal/.m2/repository/org/apache/xmlbeans/xmlbeans/5.1.1/xmlbeans-5.1.1.jar:/Users/gyaneshkamal/.m2/repository/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/Users/gyaneshkamal/.m2/repository/com/github/virtuald/curvesapi/1.07/curvesapi-1.07.jar:/Users/gyaneshkamal/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/Users/gyaneshkamal/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar:/Users/gyaneshkamal/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/gyaneshkamal/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/gyaneshkamal/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:/Users/gyaneshkamal/.m2/repository/org/apache/logging/log4j/log4j-core/2.17.2/log4j-core-2.17.2.jar:/Users/gyaneshkamal/.m2/repository/org/apache/logging/log4j/log4j-api/2.17.2/log4j-api-2.17.2.jar:/Users/gyaneshkamal/.m2/repository/org/projectlombok/lombok/1.18.32/lombok-1.18.32.jar:"/>
     <property name="java.vm.vendor" value="Homebrew"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
@@ -13,10 +13,10 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk@17/17.0.15/libexec/openjdk.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/gyaneshkamal/eclipse-workspace/July_2025_API_Framework/target/surefire/surefirebooter14850278633661764064.jar /Users/gyaneshkamal/eclipse-workspace/July_2025_API_Framework/target/surefire 2025-07-17T17-25-19_396-jvmRun1 surefire18221049642713888046tmp surefire_01232317381012123705tmp"/>
+    <property name="sun.java.command" value="/Users/gyaneshkamal/eclipse-workspace/July_2025_API_Framework/target/surefire/surefirebooter1015995163369381686.jar /Users/gyaneshkamal/eclipse-workspace/July_2025_API_Framework/target/surefire 2025-07-17T18-56-24_940-jvmRun1 surefire12651129786490633317tmp surefire_04298670126868739928tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="/Users/gyaneshkamal/eclipse-workspace/July_2025_API_Framework/target/test-classes:/Users/gyaneshkamal/eclipse-workspace/July_2025_API_Framework/target/classes:/Users/gyaneshkamal/.m2/repository/io/rest-assured/rest-assured/5.3.0/rest-assured-5.3.0.jar:/Users/gyaneshkamal/.m2/repository/org/apache/groovy/groovy/4.0.6/groovy-4.0.6.jar:/Users/gyaneshkamal/.m2/repository/org/apache/groovy/groovy-xml/4.0.6/groovy-xml-4.0.6.jar:/Users/gyaneshkamal/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/gyaneshkamal/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/gyaneshkamal/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/gyaneshkamal/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/gyaneshkamal/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/gyaneshkamal/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/gyaneshkamal/.m2/repository/io/rest-assured/json-path/5.3.0/json-path-5.3.0.jar:/Users/gyaneshkamal/.m2/repository/org/apache/groovy/groovy-json/4.0.6/groovy-json-4.0.6.jar:/Users/gyaneshkamal/.m2/repository/io/rest-assured/rest-assured-common/5.3.0/rest-assured-common-5.3.0.jar:/Users/gyaneshkamal/.m2/repository/io/rest-assured/xml-path/5.3.0/xml-path-5.3.0.jar:/Users/gyaneshkamal/.m2/repository/org/testng/testng/7.7.1/testng-7.7.1.jar:/Users/gyaneshkamal/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/gyaneshkamal/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/gyaneshkamal/.m2/repository/org/webjars/jquery/3.6.1/jquery-3.6.1.jar:/Users/gyaneshkamal/.m2/repository/com/github/scribejava/scribejava-apis/8.3.1/scribejava-apis-8.3.1.jar:/Users/gyaneshkamal/.m2/repository/com/github/scribejava/scribejava-core/8.3.1/scribejava-core-8.3.1.jar:/Users/gyaneshkamal/.m2/repository/com/github/scribejava/scribejava-java8/8.3.1/scribejava-java8-8.3.1.jar:/Users/gyaneshkamal/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.12.3/jackson-databind-2.12.3.jar:/Users/gyaneshkamal/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.12.3/jackson-annotations-2.12.3.jar:/Users/gyaneshkamal/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.12.3/jackson-core-2.12.3.jar:/Users/gyaneshkamal/.m2/repository/com/github/fge/json-schema-validator/2.2.6/json-schema-validator-2.2.6.jar:/Users/gyaneshkamal/.m2/repository/com/google/code/findbugs/jsr305/3.0.0/jsr305-3.0.0.jar:/Users/gyaneshkamal/.m2/repository/joda-time/joda-time/2.3/joda-time-2.3.jar:/Users/gyaneshkamal/.m2/repository/com/googlecode/libphonenumber/libphonenumber/6.2/libphonenumber-6.2.jar:/Users/gyaneshkamal/.m2/repository/com/github/fge/json-schema-core/1.2.5/json-schema-core-1.2.5.jar:/Users/gyaneshkamal/.m2/repository/com/github/fge/uri-template/0.9/uri-template-0.9.jar:/Users/gyaneshkamal/.m2/repository/com/github/fge/msg-simple/1.1/msg-simple-1.1.jar:/Users/gyaneshkamal/.m2/repository/com/github/fge/btf/1.2/btf-1.2.jar:/Users/gyaneshkamal/.m2/repository/com/google/guava/guava/16.0.1/guava-16.0.1.jar:/Users/gyaneshkamal/.m2/repository/com/github/fge/jackson-coreutils/1.8/jackson-coreutils-1.8.jar:/Users/gyaneshkamal/.m2/repository/org/mozilla/rhino/1.7R4/rhino-1.7R4.jar:/Users/gyaneshkamal/.m2/repository/javax/mail/mailapi/1.4.3/mailapi-1.4.3.jar:/Users/gyaneshkamal/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar:/Users/gyaneshkamal/.m2/repository/net/sf/jopt-simple/jopt-simple/4.6/jopt-simple-4.6.jar:/Users/gyaneshkamal/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar:/Users/gyaneshkamal/.m2/repository/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/Users/gyaneshkamal/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/gyaneshkamal/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/Users/gyaneshkamal/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/gyaneshkamal/.m2/repository/org/apache/poi/poi/5.2.3/poi-5.2.3.jar:/Users/gyaneshkamal/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/Users/gyaneshkamal/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/gyaneshkamal/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/gyaneshkamal/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/Users/gyaneshkamal/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/Users/gyaneshkamal/.m2/repository/org/apache/poi/poi-ooxml/5.2.3/poi-ooxml-5.2.3.jar:/Users/gyaneshkamal/.m2/repository/org/apache/poi/poi-ooxml-lite/5.2.3/poi-ooxml-lite-5.2.3.jar:/Users/gyaneshkamal/.m2/repository/org/apache/xmlbeans/xmlbeans/5.1.1/xmlbeans-5.1.1.jar:/Users/gyaneshkamal/.m2/repository/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/Users/gyaneshkamal/.m2/repository/com/github/virtuald/curvesapi/1.07/curvesapi-1.07.jar:/Users/gyaneshkamal/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/Users/gyaneshkamal/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar:/Users/gyaneshkamal/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/gyaneshkamal/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/gyaneshkamal/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:/Users/gyaneshkamal/.m2/repository/org/apache/logging/log4j/log4j-core/2.17.2/log4j-core-2.17.2.jar:/Users/gyaneshkamal/.m2/repository/org/apache/logging/log4j/log4j-api/2.17.2/log4j-api-2.17.2.jar:/Users/gyaneshkamal/.m2/repository/org/projectlombok/lombok/1.18.32/lombok-1.18.32.jar:"/>
+    <property name="surefire.test.class.path" value="/Users/gyaneshkamal/eclipse-workspace/July_2025_API_Framework/target/test-classes:/Users/gyaneshkamal/eclipse-workspace/July_2025_API_Framework/target/classes:/Users/gyaneshkamal/.m2/repository/io/rest-assured/rest-assured/5.3.0/rest-assured-5.3.0.jar:/Users/gyaneshkamal/.m2/repository/org/apache/groovy/groovy/4.0.6/groovy-4.0.6.jar:/Users/gyaneshkamal/.m2/repository/org/apache/groovy/groovy-xml/4.0.6/groovy-xml-4.0.6.jar:/Users/gyaneshkamal/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/gyaneshkamal/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/gyaneshkamal/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/gyaneshkamal/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/gyaneshkamal/.m2/repository/org/hamcrest/hamcrest/2.1/hamcrest-2.1.jar:/Users/gyaneshkamal/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/gyaneshkamal/.m2/repository/io/rest-assured/json-path/5.3.0/json-path-5.3.0.jar:/Users/gyaneshkamal/.m2/repository/org/apache/groovy/groovy-json/4.0.6/groovy-json-4.0.6.jar:/Users/gyaneshkamal/.m2/repository/io/rest-assured/rest-assured-common/5.3.0/rest-assured-common-5.3.0.jar:/Users/gyaneshkamal/.m2/repository/io/rest-assured/xml-path/5.3.0/xml-path-5.3.0.jar:/Users/gyaneshkamal/.m2/repository/org/testng/testng/7.7.1/testng-7.7.1.jar:/Users/gyaneshkamal/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/gyaneshkamal/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/gyaneshkamal/.m2/repository/org/webjars/jquery/3.6.1/jquery-3.6.1.jar:/Users/gyaneshkamal/.m2/repository/com/github/scribejava/scribejava-apis/8.3.1/scribejava-apis-8.3.1.jar:/Users/gyaneshkamal/.m2/repository/com/github/scribejava/scribejava-core/8.3.1/scribejava-core-8.3.1.jar:/Users/gyaneshkamal/.m2/repository/com/github/scribejava/scribejava-java8/8.3.1/scribejava-java8-8.3.1.jar:/Users/gyaneshkamal/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.12.3/jackson-databind-2.12.3.jar:/Users/gyaneshkamal/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.12.3/jackson-annotations-2.12.3.jar:/Users/gyaneshkamal/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.12.3/jackson-core-2.12.3.jar:/Users/gyaneshkamal/.m2/repository/com/github/fge/json-schema-validator/2.2.6/json-schema-validator-2.2.6.jar:/Users/gyaneshkamal/.m2/repository/com/google/code/findbugs/jsr305/3.0.0/jsr305-3.0.0.jar:/Users/gyaneshkamal/.m2/repository/joda-time/joda-time/2.3/joda-time-2.3.jar:/Users/gyaneshkamal/.m2/repository/com/googlecode/libphonenumber/libphonenumber/6.2/libphonenumber-6.2.jar:/Users/gyaneshkamal/.m2/repository/com/github/fge/json-schema-core/1.2.5/json-schema-core-1.2.5.jar:/Users/gyaneshkamal/.m2/repository/com/github/fge/uri-template/0.9/uri-template-0.9.jar:/Users/gyaneshkamal/.m2/repository/com/github/fge/msg-simple/1.1/msg-simple-1.1.jar:/Users/gyaneshkamal/.m2/repository/com/github/fge/btf/1.2/btf-1.2.jar:/Users/gyaneshkamal/.m2/repository/com/google/guava/guava/16.0.1/guava-16.0.1.jar:/Users/gyaneshkamal/.m2/repository/com/github/fge/jackson-coreutils/1.8/jackson-coreutils-1.8.jar:/Users/gyaneshkamal/.m2/repository/org/mozilla/rhino/1.7R4/rhino-1.7R4.jar:/Users/gyaneshkamal/.m2/repository/javax/mail/mailapi/1.4.3/mailapi-1.4.3.jar:/Users/gyaneshkamal/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar:/Users/gyaneshkamal/.m2/repository/net/sf/jopt-simple/jopt-simple/4.6/jopt-simple-4.6.jar:/Users/gyaneshkamal/.m2/repository/com/aventstack/extentreports/5.1.1/extentreports-5.1.1.jar:/Users/gyaneshkamal/.m2/repository/io/reactivex/rxjava3/rxjava/3.1.6/rxjava-3.1.6.jar:/Users/gyaneshkamal/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar:/Users/gyaneshkamal/.m2/repository/org/freemarker/freemarker/2.3.32/freemarker-2.3.32.jar:/Users/gyaneshkamal/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/gyaneshkamal/.m2/repository/org/apache/poi/poi/5.2.3/poi-5.2.3.jar:/Users/gyaneshkamal/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/Users/gyaneshkamal/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/gyaneshkamal/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/gyaneshkamal/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/Users/gyaneshkamal/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/Users/gyaneshkamal/.m2/repository/org/apache/poi/poi-ooxml/5.2.3/poi-ooxml-5.2.3.jar:/Users/gyaneshkamal/.m2/repository/org/apache/poi/poi-ooxml-lite/5.2.3/poi-ooxml-lite-5.2.3.jar:/Users/gyaneshkamal/.m2/repository/org/apache/xmlbeans/xmlbeans/5.1.1/xmlbeans-5.1.1.jar:/Users/gyaneshkamal/.m2/repository/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/Users/gyaneshkamal/.m2/repository/com/github/virtuald/curvesapi/1.07/curvesapi-1.07.jar:/Users/gyaneshkamal/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/Users/gyaneshkamal/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar:/Users/gyaneshkamal/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/gyaneshkamal/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/gyaneshkamal/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:/Users/gyaneshkamal/.m2/repository/org/apache/logging/log4j/log4j-core/2.17.2/log4j-core-2.17.2.jar:/Users/gyaneshkamal/.m2/repository/org/apache/logging/log4j/log4j-api/2.17.2/log4j-api-2.17.2.jar:/Users/gyaneshkamal/.m2/repository/org/projectlombok/lombok/1.18.32/lombok-1.18.32.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/Users/gyaneshkamal"/>
     <property name="user.language" value="en"/>
@@ -29,7 +29,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="/Users/gyaneshkamal/eclipse-workspace/July_2025_API_Framework/target/surefire/surefirebooter14850278633661764064.jar"/>
+    <property name="surefire.real.class.path" value="/Users/gyaneshkamal/eclipse-workspace/July_2025_API_Framework/target/surefire/surefirebooter1015995163369381686.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="17.0.15+0"/>
@@ -57,11 +57,11 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="testCreateWorkSpace" classname="com.test.WorkspaceTest" time="2.578">
+  <testcase name="testCreateWorkSpace" classname="com.test.WorkspaceTest" time="2.924">
     <system-out><![CDATA[On Start method invoked....
 Name of test method started:testCreateWorkSpace
 HTTP/1.1 200 OK
-Date: Thu, 17 Jul 2025 11:55:22 GMT
+Date: Thu, 17 Jul 2025 13:26:28 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -82,26 +82,26 @@ ratelimit-limit: 300
 ratelimit-remaining: 299
 ratelimit-reset: 59
 ratelimit-limit-month: 10000
-ratelimit-remaining-month: 9921
+ratelimit-remaining-month: 9880
 x-ratelimit-limit-month: 10000
-x-ratelimit-remaining-month: 9921
+x-ratelimit-remaining-month: 9880
 uwebsockets: 20
-x-envoy-upstream-service-time: 495
+x-envoy-upstream-service-time: 658
 cf-cache-status: DYNAMIC
-Set-Cookie: __cf_bm=HIRSUL3lwo1mvzKtqQa1RWK75.TzqgzR9Q4oPIc_ccI-1752753322-1.0.1.1-_yvxsJTgWsqziot0XCn4fwDEMMKDrGgMnMdB_QgFBtf_Jev4XMAHS._kdyxkr8hFC06VQ1Rxres.Kf1XYEE5FkMNolFvcwZswzs3Rmce5ZU; path=/; expires=Thu, 17-Jul-25 12:25:22 GMT; domain=.getpostman.com; HttpOnly; Secure; SameSite=None
+Set-Cookie: __cf_bm=uT2Lou4abvSpVz7gUXPVPrC_eQwnu0vUv_kuwGT7PKk-1752758788-1.0.1.1-x8V0IUnrptDQKE4hwmO5Y5tLilmXVmTfueWyk4J9lIA2G9vm5syQrH6FtsnRaef8rtlV0qpThtLzEJnEvliRhCNCvrsPKW6XM2wzRY1LnyY; path=/; expires=Thu, 17-Jul-25 13:56:28 GMT; domain=.getpostman.com; HttpOnly; Secure; SameSite=None
 Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
-Set-Cookie: _cfuvid=cccfoq0BPWC6fC8srK5OqpnnAwnCAfmv_LWwNUoTQNk-1752753322579-0.0.1.1-604800000; path=/; domain=.getpostman.com; HttpOnly; Secure; SameSite=None
+Set-Cookie: _cfuvid=VfJpOgedRX8hYVcQFfEBQiHeKKR340eHasmgV2utwY4-1752758788628-0.0.1.1-604800000; path=/; domain=.getpostman.com; HttpOnly; Secure; SameSite=None
 Server: cloudflare
-CF-RAY: 96098cc31fb259fc-DEL
+CF-RAY: 960a1233bfa554a1-DEL
 Content-Encoding: gzip
 
 {
     "workspace": {
-        "id": "76193c72-14f2-44a1-b559-58adc67ac961",
+        "id": "fb2a9d6c-5a5d-47f0-8707-ee5baef582ca",
         "name": "gyanesh"
     }
 }
-[INFO ] 2025-07-17 17:25:22.935 [main] RestAssuredAutomationFramework_test - Created new workspace
+[INFO ] 2025-07-17 18:56:28.951 [main] RestAssuredAutomationFramework_test - Created new workspace
 Name of test method sucessfully executed:testCreateWorkSpace
 ]]></system-out>
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
@@ -109,10 +109,10 @@ SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
 ]]></system-err>
   </testcase>
-  <testcase name="testGetAllWorkspace" classname="com.test.WorkspaceTest" time="1.069">
+  <testcase name="testGetAllWorkspace" classname="com.test.WorkspaceTest" time="0.985">
     <system-out><![CDATA[Name of test method started:testGetAllWorkspace
 HTTP/1.1 200 OK
-Date: Thu, 17 Jul 2025 11:55:23 GMT
+Date: Thu, 17 Jul 2025 13:26:29 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -133,17 +133,17 @@ ratelimit-limit: 10
 ratelimit-remaining: 9
 ratelimit-reset: 9
 ratelimit-limit-month: 10000
-ratelimit-remaining-month: 9920
+ratelimit-remaining-month: 9879
 x-ratelimit-limit-month: 10000
-x-ratelimit-remaining-month: 9920
+x-ratelimit-remaining-month: 9879
 uwebsockets: 20
-x-envoy-upstream-service-time: 220
+x-envoy-upstream-service-time: 223
 cf-cache-status: DYNAMIC
-Set-Cookie: __cf_bm=zzylpUNuFdecL5S.HWL45UChUC1IMZYbKfyM5QbijFo-1752753323-1.0.1.1-ncy79bnBPkVH1GJGDKe46i0d0jkPDqZjbhigSN6sVwoOMMeF4lS80gHKRfOE6GkHZmLtaVrHJpIZKNKimvmAHc2HGgjfpyn2Ta1ijOFd1AE; path=/; expires=Thu, 17-Jul-25 12:25:23 GMT; domain=.getpostman.com; HttpOnly; Secure; SameSite=None
+Set-Cookie: __cf_bm=TGX.WTYxFsoOO6MePWFNQWc94ScM0zS_0eQZpVJ8tUw-1752758789-1.0.1.1-pm.vzvppoqXX0Ie33EfwPK3lbQVS4bfjTQunOgIOusldl8dSJ.JnUfIlrW5mSe__ecAlwLXME6J5BiPZ7M6CExYF6iOALI_Yw5znIFg_d.M; path=/; expires=Thu, 17-Jul-25 13:56:29 GMT; domain=.getpostman.com; HttpOnly; Secure; SameSite=None
 Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
-Set-Cookie: _cfuvid=a63ZFeqwlCajEOU9Uarw6og26ckQ8SmH1vyZj1U17ow-1752753323915-0.0.1.1-604800000; path=/; domain=.getpostman.com; HttpOnly; Secure; SameSite=None
+Set-Cookie: _cfuvid=F.7X62lG2QmCaAaTz_pm9C.CPLqW0Zl2SDHwzuvmC9A-1752758789972-0.0.1.1-604800000; path=/; domain=.getpostman.com; HttpOnly; Secure; SameSite=None
 Server: cloudflare
-CF-RAY: 96098ccd1e6854ec-DEL
+CF-RAY: 960a123fded55475-DEL
 Content-Encoding: gzip
 
 {
@@ -165,7 +165,7 @@ Content-Encoding: gzip
             "about": ""
         },
         {
-            "id": "76193c72-14f2-44a1-b559-58adc67ac961",
+            "id": "fb2a9d6c-5a5d-47f0-8707-ee5baef582ca",
             "name": "gyanesh",
             "type": "team",
             "visibility": "team",
@@ -174,14 +174,14 @@ Content-Encoding: gzip
         }
     ]
 }
-[INFO ] 2025-07-17 17:25:24.011 [main] RestAssuredAutomationFramework_test - Fetched all workspace
+[INFO ] 2025-07-17 18:56:29.948 [main] RestAssuredAutomationFramework_test - Fetched all workspace
 Name of test method sucessfully executed:testGetAllWorkspace
 ]]></system-out>
   </testcase>
-  <testcase name="testGetSingleWorkspace" classname="com.test.WorkspaceTest" time="0.609">
+  <testcase name="testGetSingleWorkspace" classname="com.test.WorkspaceTest" time="1.846">
     <system-out><![CDATA[Name of test method started:testGetSingleWorkspace
 HTTP/1.1 200 OK
-Date: Thu, 17 Jul 2025 11:55:24 GMT
+Date: Thu, 17 Jul 2025 13:26:31 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -201,41 +201,37 @@ ratelimit-policy: 10;w=10
 ratelimit-limit: 10
 ratelimit-remaining: 8
 ratelimit-reset: 8
-ratelimit-limit-month: 10000
-ratelimit-remaining-month: 9919
-x-ratelimit-limit-month: 10000
-x-ratelimit-remaining-month: 9919
 uwebsockets: 20
-x-envoy-upstream-service-time: 261
+x-envoy-upstream-service-time: 987
 cf-cache-status: DYNAMIC
-Set-Cookie: __cf_bm=Yl2I5JvZ30XRxeXYrp0kyUOoDX7A5Ajbfsg1pAkhD6c-1752753324-1.0.1.1-lK4JbkVBnDnVQmhyGNzwdGt0rjNENZnZkSGVzcb4tLVwIhaK27m05KwjQ7MismYKvlI2jzfe75etVYYSbU.aqkeFD.t.DGQ.Mu6KIga.AGQ; path=/; expires=Thu, 17-Jul-25 12:25:24 GMT; domain=.getpostman.com; HttpOnly; Secure; SameSite=None
+Set-Cookie: __cf_bm=y1LYdAoEcmV.2p_rkqh1Gqd7Emxpkcjw5nzeUcc4i8U-1752758791-1.0.1.1-_eHnDYLQ_49X2YfM1R7ILN74O3M4JUE2BjmaPhNcZqI8PavEj7uxWDKc3I0NQpz.zIzrL729AfbC.0eTWIl7bEjzyWfQMztsOYioLMkcNqg; path=/; expires=Thu, 17-Jul-25 13:56:31 GMT; domain=.getpostman.com; HttpOnly; Secure; SameSite=None
 Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
-Set-Cookie: _cfuvid=LXhsebIPJcyZKNHkPOE.J0DX5avkEZpHFsPIvl4Q5nU-1752753324614-0.0.1.1-604800000; path=/; domain=.getpostman.com; HttpOnly; Secure; SameSite=None
+Set-Cookie: _cfuvid=xOXZu2uPk5zBO5bZ38o_jdU5cHIYwNvT3z_QBQ84xeA-1752758791715-0.0.1.1-604800000; path=/; domain=.getpostman.com; HttpOnly; Secure; SameSite=None
 Server: cloudflare
-CF-RAY: 96098cd3cdf859f3-DEL
+CF-RAY: 960a12460b911c61-DEL
 Content-Encoding: gzip
 
 {
     "workspace": {
-        "id": "76193c72-14f2-44a1-b559-58adc67ac961",
+        "id": "fb2a9d6c-5a5d-47f0-8707-ee5baef582ca",
         "name": "gyanesh",
         "type": "team",
         "description": "api framework",
         "visibility": "team",
         "createdBy": "13883244",
         "updatedBy": "13883244",
-        "createdAt": "2025-07-17T11:55:22.000Z",
-        "updatedAt": "2025-07-17T11:55:22.000Z",
+        "createdAt": "2025-07-17T13:26:28.000Z",
+        "updatedAt": "2025-07-17T13:26:28.000Z",
         "about": ""
     }
 }
 Name of test method sucessfully executed:testGetSingleWorkspace
 ]]></system-out>
   </testcase>
-  <testcase name="testDeleteWorkspace" classname="com.test.WorkspaceTest" time="1.078">
+  <testcase name="testDeleteWorkspace" classname="com.test.WorkspaceTest" time="0.828">
     <system-out><![CDATA[Name of test method started:testDeleteWorkspace
 HTTP/1.1 200 OK
-Date: Thu, 17 Jul 2025 11:55:25 GMT
+Date: Thu, 17 Jul 2025 13:26:32 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -248,33 +244,33 @@ access-control-allow-methods: GET,POST,PUT,DELETE
 access-control-allow-headers: content-type,x-api-key
 access-control-allow-credentials: false
 x-ratelimit-limit: 300
-x-ratelimit-reset: 56
+x-ratelimit-reset: 54
 x-ratelimit-remaining: 296
-ratelimit: limit=300, remaining=296, reset=56
+ratelimit: limit=300, remaining=296, reset=54
 ratelimit-policy: 300;w=60
 ratelimit-limit: 300
 ratelimit-remaining: 296
-ratelimit-reset: 56
+ratelimit-reset: 54
 ratelimit-limit-month: 10000
-ratelimit-remaining-month: 9918
+ratelimit-remaining-month: 9877
 x-ratelimit-limit-month: 10000
-x-ratelimit-remaining-month: 9918
+x-ratelimit-remaining-month: 9877
 uwebsockets: 20
-x-envoy-upstream-service-time: 355
+x-envoy-upstream-service-time: 342
 cf-cache-status: DYNAMIC
-Set-Cookie: __cf_bm=8vKysdt94mHMp7TUQYr86GSxEM57GArV.atVsNCSVfg-1752753325-1.0.1.1-sxbZadFVeIc.w5sEwjd16TTBxXSHpEereFF7bfsG_tY6vAsFci.XLyFyswm5fJlElKNOVh829w4KL1GLr8Gt2JZIaGoaCb0nRjBcX7MEl4Y; path=/; expires=Thu, 17-Jul-25 12:25:25 GMT; domain=.getpostman.com; HttpOnly; Secure; SameSite=None
+Set-Cookie: __cf_bm=DFsZ2MWCAnrdY5zQQ4jPn5X1kiax21Gz3jSqn3_zu60-1752758792-1.0.1.1-fjxxG3PaAmVWcXPCf_3MB4ivt1tPsgxGv4pWdoTYNF_hevbBwBZgT3DDEVzM_Losq_PJ96QHQqv3RgQE2WB6ouvYJXZ6t2eVux3iq7CLuUo; path=/; expires=Thu, 17-Jul-25 13:56:32 GMT; domain=.getpostman.com; HttpOnly; Secure; SameSite=None
 Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
-Set-Cookie: _cfuvid=Guzvebo4sE1ZZGE.AiohpQauLfEz6Gh4rpq34WCxraU-1752753325711-0.0.1.1-604800000; path=/; domain=.getpostman.com; HttpOnly; Secure; SameSite=None
+Set-Cookie: _cfuvid=cpvipLx4k8f.F8QRAcdAbi3bgNQxozS6zPhYGIN5rLo-1752758792638-0.0.1.1-604800000; path=/; domain=.getpostman.com; HttpOnly; Secure; SameSite=None
 Server: cloudflare
-CF-RAY: 96098cd78f02b232-DEL
+CF-RAY: 960a12525d275474-DEL
 Content-Encoding: gzip
 
 {
     "workspace": {
-        "id": "76193c72-14f2-44a1-b559-58adc67ac961"
+        "id": "fb2a9d6c-5a5d-47f0-8707-ee5baef582ca"
     }
 }
-[INFO ] 2025-07-17 17:25:25.700 [main] RestAssuredAutomationFramework_test - Deleted workspace
+[INFO ] 2025-07-17 18:56:32.622 [main] RestAssuredAutomationFramework_test - Deleted workspace
 Name of test method sucessfully executed:testDeleteWorkspace
 ]]></system-out>
   </testcase>
